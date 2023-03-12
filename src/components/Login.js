@@ -6,10 +6,10 @@ const Auth_Url = "https://accounts.spotify.com/authorize?client_id=ebc0d5a859544
 
 export default function Login() {
   return (
-    <div>
-<img src={logo} alt="" className="sm:h-72 lg: h-96 w-full"/>
-<div className="flex justify-center lg:py-28">
-<a className="text-white bg-green-700 w-40 h-8 rounded-full text-center" href={Auth_Url}>Login</a>      
+    <div className="">
+<img src={logo} alt="" className="lg:h-96 sm: h-96 w-full"/>
+<div className="bg-black py-8 flex justify-center lg:py-24 ">
+<a className="text-white bg-green-700  w-40 h-8 rounded-full text-center" href={Auth_Url}>Login</a>      
     </div>
     </div>
   )
